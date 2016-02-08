@@ -9,7 +9,7 @@
 void swap(int to, int from) {
 	int temp;
 	temp=to;
-	from=to;
+	to=from;
 	from=temp;
 }//swap
 
